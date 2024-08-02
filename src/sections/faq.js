@@ -9,13 +9,13 @@ const data = [
     title: `01. What is the application process for the PBL program?`,
     contents: (
       <div>
-        <p>Please contact our team via email, attach your <b>resume</b> and a <b>recent transcript</b>. We'll arrange a 30-minute chat to discuss your needs and interests, after which we'll provide a tailored syllabus and quote for you.</p>
+        <p>Please contact our team via email, attach your <b>recent transcript</b> and resume (if applicable). We'll arrange a 30-minute chat to discuss your needs and interests, after which we'll provide a tailored syllabus and quote for you.</p>
       </div>
     ),
   },
   {
     id: 2,
-    title: `02. What is the PBL program start date?`,
+    title: `02. When does the PBL program start?`,
     contents: (
       <div>
         <p>The PBL program accepts students on a <b>rolling basis</b> throughout the year with limited seats. Please contact us if you are interested so that we can schedule your lectures as soon as possible.</p>
@@ -47,9 +47,9 @@ const data = [
     title: `05. What networking opportunities do you offer?`,
     contents: (
       <div>
-        <p>We organize regular <b>academic seminars</b> with guest lecturers and scholars from various university and industrial fields.</p> 
+        <p>We organize regular <b>academic seminars</b> with guest lecturers and scholars from various universities and industrial fields.</p> 
         <p>During summer, you can also participate in our <b>university tours</b>, gain exclusive access to university labs, and have personal talks with prominent professors and Ph.D. students.</p>
-        <p>We also organize various <b>workshops</b> to help you build up your resume and personal profiles</p>
+        <p>We also organize various <b>workshops</b> to help you build up your resume and professional profiles.</p>
       </div>
     ),
   },
@@ -58,7 +58,7 @@ const data = [
     title: `06. What kind of projects can I work on?`,
     contents: (
       <div>
-        <p>Projects are customized based on your interests. </p>
+        <p>We offer customized projects tailored to your interests and tied to current industry trends, ensuring they are practical, reflective of real-life scenarios.</p>
         <p>For example, one of our students was deeply interested in psychology, particularly social anxiety. We helped her research and develop a thesis on using VR-simulated social environments to assess people's stress levels and conduct research based on the results.</p>
         <p>Another student was interested in e-commerce and product trends. We helped him create a web crawler to automate product trend data fetching and used machine learning to predict sales cycle.</p>
       </div>

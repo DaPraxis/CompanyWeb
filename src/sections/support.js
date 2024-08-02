@@ -17,7 +17,7 @@ const data = [
     id: 2,
     icon: icon2,
     title: 'Distingished Seminars and Workshops',
-    text: `Engage in seminars with guest lecturers and scholars from various university and industrial fields. Workshops to enrich your skills.`,
+    text: `Engage in seminars with guest lecturers and scholars from various universities and industrial fields. Workshops to enrich your skills.`,
   },
 ];
 

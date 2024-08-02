@@ -33,15 +33,15 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.bannerContent}>
             <Heading as="h1">
-            {"Empowering Future Innovators"}
+            {"Accelerate Your Academic Pathway"}
             </Heading>
             <br/>
             <Text as="h2">
             Personalized Programs in {' '}
-            <RotatingText words={words} interval={4000} />
+            <RotatingText words={words} interval={4000} />,
             <br/>
             {' '}
-            to Enhance Your Academic Success
+            Curated by Elite Mentors and Industry Experts
             </Text>
             <SubscriptionForm sx={styles.subscriptionForm} />
             {/* <Flex sx={styles.sponsoredBy}>

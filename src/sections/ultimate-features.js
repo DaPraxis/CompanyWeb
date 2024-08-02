@@ -19,14 +19,15 @@ const data = [
     id: 1,
     icon: dataImage,
     path: '#!',
-    title: 'Stay Ahead with Our Ph.D.-Led Lectures!',
+    title: 'Stay Ahead with Our Ph.D.-Led Lectures',
     description: `Our lectures provides you with the knowledge and skills needed to excel in today's fast-paced academic and professional environments.`,
     list: [
+      "Computer Science",
       "Machine Learning / AI",
-      "Neural Network",
       "Big Data",
       "Database",
-      "Computer Science"
+      "Neural Network",
+
     ]
   },
   {
@@ -49,13 +50,12 @@ const data = [
     icon: educationImage,
     path: '#!',
     title: 'Academic Networking',
-    description: "Overwhelmed by Major Choices? Curious About Academic Paths? We connect you to the best experts in the field!",
+    description: "Overwhelmed by major choices? Curious about academic paths? We connect you to the best experts in the field!",
     list: [
-      "Reference Letter",
-      "Career Counseling",
-      "Mentorship Program",
-      "Networking Events",
       "University Picks",
+      "Reference Letter",
+      "Major Counseling",
+      "Alumini Networking",
       "Academic Seminars"
     ]
   },
@@ -64,13 +64,12 @@ const data = [
     icon: careerImage,
     path: '#!',
     title: 'Portfolio Building',
-    description: `Enhance your academic and professional profile with our comprehensive portfolio building services.`,
+    description: `Start your professional career earlier than your peers. Enhance your academic and professional profile with our comprehensive portfolio building services.`,
     list:[
       "Personal Websites",
       "LinkedIn Portfolio",
       "Mock Interviews",
       "Resume Writing",
-      "Professional Branding"
     ]
   },
 ];
