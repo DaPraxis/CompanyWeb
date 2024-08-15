@@ -8,59 +8,49 @@ import dataImage from 'assets/images/features/data.png'
 import programmingImage from 'assets/images/features/programing.png'
 import careerImage from 'assets/images/features/career.png'
 import educationImage from 'assets/images/features/education.png'
+import maxJ from 'assets/images/features/max.png'
+import stevenL from 'assets/images/features/steven.png'
+import xinyiL from 'assets/images/features/xinyi.png'
+import clintJ from 'assets/images/features/clint.png'
+
 
 const data = [
     {
       id: 1,
-      icon: dataImage,
+      icon: maxJ,
       path: '#!',
-      name: 'Dr.Max',
-      title: 'Mentor, Ph.D.',
+      name: 'Dr. Max',
+      title: 'Mentor, Researcher',
       description: `Our lectures provides you with the knowledge and skills needed to excel in today's fast-paced academic and professional environments.`,
+      email: 'max.jiang@fasttrackacademy.net',
+      linkedin: 'https://www.linkedin.com/in/haoyan-jiang/'
     },
     {
       id: 2,
-      icon: programmingImage,
+      icon: xinyiL,
+      name: 'Xinyi',
       path: '#!',
-      title: 'Tailored Projects to Ignite Your Passion',
+      title: 'Mentor, Technical Consultant',
       description: `Transform your interests into impactful projects with our customized programs. We offer cross-discipline exploration, enabling you to merge various fields of study.`,
-      list: [
-        "Project Based Learning",
-        "Personalized Project",
-        "Cross-Discipline",
-        "Experts Guidance",
-        "Research & Analysis",
-        "Innovation & Creativity"
-      ]
+      linkedin: 'https://www.linkedin.com/in/xinyi-l-505647b9/'
     },
     {
       id: 3,
-      icon: educationImage,
+      icon: stevenL,
       path: '#!',
-      title: 'Academic Networking',
+      name: 'Steven',
+      title: 'Career Coach, Marketing Guru',
       description: "Overwhelmed by Major Choices? Curious About Academic Paths? We connect you to the best experts in the field!",
-      list: [
-        "Reference Letter",
-        "Career Counseling",
-        "Mentorship Program",
-        "Networking Events",
-        "University Picks",
-        "Academic Seminars"
-      ]
+      linkedin:'https://www.linkedin.com/in/stevenbinghuiliu/'
     },
     {
       id: 4,
-      icon: careerImage,
+      icon: clintJ,
       path: '#!',
-      title: 'Portfolio Building',
+      name: 'Clint',
+      title: 'Career Coach, Financial Specialist',
       description: `Enhance your academic and professional profile with our comprehensive portfolio building services.`,
-      list:[
-        "Personal Websites",
-        "LinkedIn Portfolio",
-        "Mock Interviews",
-        "Resume Writing",
-        "Professional Branding"
-      ]
+      linkedin: 'https://www.linkedin.com/in/clint-jin-53340711b/'
     },
   ];
 
@@ -117,7 +107,7 @@ const styles = {
         'repeat(2, 1fr)',
         'repeat(2, 1fr)',
       ],
-      borderTop: (t) => [null, null, `1px solid ${t.colors.borderColor}`],
-      borderLeft: (t) => [null, null, `1px solid ${t.colors.borderColor}`],
+      // borderTop: (t) => [null, null, `1px solid ${t.colors.borderColor}`],
+      // borderLeft: (t) => [null, null, `1px solid ${t.colors.borderColor}`],
     },
   };
