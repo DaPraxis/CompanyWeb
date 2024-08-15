@@ -21,7 +21,15 @@ const data = [
       path: '#!',
       name: 'Dr. Max',
       title: 'Mentor, Researcher',
-      description: `Our lectures provides you with the knowledge and skills needed to excel in today's fast-paced academic and professional environments.`,
+      description: `Dr.Max is an experienced research scientist specializing in computer science, AI, machine learning, 
+                    and data science. He holds an Honours Bachelor of Science from the University of Toronto, with a 
+                    double major in Computer Science and Statistics, followed by a direct-entry Ph.D. in Industrial Engineering, 
+                    focusing on autonomous driving and driver mental workload prediction. Dr. Max has worked as a research 
+                    scientist for companies like Sun Life, Huawei, and Environics Analytics. He is passionate about turning 
+                    real-world problems into research and publications. With over four years of teaching assistant experience at 
+                    UofT, he has supported courses in statistics, mathematics, AI, and computer science. Additionally, he has mentored
+                    high school students for 6+ years, leading them in data and mathematics competitions and helping them gain 
+                    admission to top-tier STEM programs.`,
       email: 'max.jiang@fasttrackacademy.net',
       linkedin: 'https://www.linkedin.com/in/haoyan-jiang/'
     },

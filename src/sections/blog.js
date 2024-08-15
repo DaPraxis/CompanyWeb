@@ -8,38 +8,53 @@ import news1 from 'assets/images/blog/1.png';
 import news2 from 'assets/images/blog/2.png';
 import news3 from 'assets/images/blog/3.png';
 import news4 from 'assets/images/blog/4.png';
+import crawler from 'assets/images/blog/crawler.gif';
+// import why from 'assets/images/blog/why-Photoroom.jpg'
+import why from 'assets/images/blog/why.png'
+import AI from 'assets/images/blog/AI.png'
+import AI2 from 'assets/images/blog/AI2.png'
+import zoom from 'assets/images/blog/zoom.png'
+import image from 'assets/images/blog/image.png'
+import robot from 'assets/images/blog/robot.gif'
 
 const data = [
   {
-    id: 1,
-    image: news1,
-    title: 'Introducing our newest team with great experience',
-    desc:
-      'Brian Halligan knows that you need more than a great product to have a great brand.',
-    link: '#',
-  },
-  {
-    id: 2,
-    image: news2,
-    title:
-      'New banking application has  developed and we expecting good feedback',
+    id: 5,
+    image: AI2,
+    title: "Teach AI to paint using different keywords and to learn from various artists' styles.",
     desc: '',
-    link: '#',
+    // link: '#',
   },
   {
     id: 3,
-    image: news3,
-    title: 'Ui/UX industry are doing great job in previous year history',
+    image: zoom,
+    title: 'LLM-based virtual meeting assistant.',
     desc: '',
-    link: '',
+    // link: '#',
+  },
+  {
+    id: 0,
+    image: robot,
+    title: 'Robot arm training with reinforcement learning.',
+    desc: '',
+    // link: '#',
+  },
+  {
+    id: 2,
+    image: crawler,
+    title:
+      'Automated web crawler conducting Social Network Analysis (SNA).',
+    desc: '',
+    // link: '#',
   },
   {
     id: 4,
-    image: news4,
-    title: 'Develop you design experience with figma features.',
+    image: image,
+    title: 'AI image understanding.',
     desc: '',
     link: '',
   },
+  
 ];
 
 const masonryOptions = {
@@ -52,8 +67,8 @@ const Blog = () => {
       <Container>
         <SectionHeading
           sx={{ mb: [6, null, null, 14] }}
-          slogan="Latest newsfeed"
-          title="Our recent blog post that updated"
+          slogan="Latest alumini work"
+          title="Our recent student projects"
         />
         <Masonry sx={styles.masonry} options={masonryOptions}>
           {data.map((post) => (

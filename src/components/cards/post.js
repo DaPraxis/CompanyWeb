@@ -19,14 +19,14 @@ export default Post;
 
 const styles = {
   post: {
-    paddingLeft: 3,
-    paddingRight: 3,
+    paddingLeft: 2,
+    paddingRight: 2,
     marginBottom: 6,
     width: ['100%', null, null, '50%', '33.3333%'],
     figure: {
       margin: 0,
       img: {
-        borderRadius: 5,
+        // borderRadius: 5,
         width: '100%',
       },
     },

@@ -25,7 +25,7 @@ export default function IndexPage() {
       <UltimateFeatures />
       {/* <Clients /> */}
       {/* <Team /> */}
-      {/* <Blog /> */}
+      <Blog />
       <Faq />
     </Layout>
   );
