@@ -9,6 +9,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@theme-ui/css": "^0.16.2",
     "framer-motion": "^4.1.3",
     "gatsby": "^3.3.0",
     "gatsby-plugin-google-analytics": "^3.3.0",
