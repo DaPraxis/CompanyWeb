@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Link } from 'components/link';
-import LogoSvg from 'components/icons/logo2';
+import LogoSvg from 'components/icons/logo3';
 
 export default function Logo(props) {
   return (

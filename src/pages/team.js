@@ -21,7 +21,7 @@ const data = [
       path: '#!',
       name: 'Dr. Max',
       title: 'Mentor, Researcher',
-      description: `Dr.Max is an experienced research scientist specializing in computer science, AI, machine learning, 
+      description: `Dr. Max is an experienced research scientist specializing in computer science, AI, machine learning, 
                     and data science. He holds an Honours Bachelor of Science from the University of Toronto, with a 
                     double major in Computer Science and Statistics, followed by a direct-entry Ph.D. in Industrial Engineering, 
                     focusing on autonomous driving and driver mental workload prediction. Dr. Max has worked as a research 
@@ -39,7 +39,14 @@ const data = [
       name: 'Xinyi',
       path: '#!',
       title: 'Mentor, Technical Consultant',
-      description: `Transform your interests into impactful projects with our customized programs. We offer cross-discipline exploration, enabling you to merge various fields of study.`,
+      description: `Xinyi is a skilled software developer with a strong foundation in computer science and engineering. She holds a 
+                    Master of Engineering in Electrical and Computer Engineering, and a Bachelor of Science in Computer Science, both 
+                    from the University of Toronto. With four years of experience as a 
+                    full-stack software developer, she has developed expertise in a range of programming languages and frameworks, 
+                    including Java, JavaScript, Python, React, and Redux. Her technical expertise is complemented by her teaching 
+                    assistant experience at the University of Toronto, where she supported programming courses and mentored students 
+                    in their coding journey. Xinyi is passionate about leveraging her knowledge to create innovative software 
+                    solutions that address real-world challenges.`,
       linkedin: 'https://www.linkedin.com/in/xinyi-l-505647b9/'
     },
     {
