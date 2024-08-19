@@ -78,7 +78,7 @@ const Faq = () => {
 
         <Accordion items={data} />
         <Box sx={styles.loadMore}>
-          <Button as="a" href = "https://form.jotform.com/221316375057251">Still Questions? Contact us</Button>
+          <Button as="a" href = "https://form.jotform.com/221316375057251">More Questions? Contact us</Button>
         </Box>
       </Container>
     </section>

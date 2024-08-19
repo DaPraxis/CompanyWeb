@@ -78,13 +78,13 @@ const styles = {
   },
   list: {
     gap: '0 18px',
-    gridTemplateColumns: ['repeat(2, 142px)', null, null, 'repeat(2, 200px)'],
-    justifyContent: [null, null, null, 'center', 'unset'],
+    gridTemplateColumns: ['repeat(2, 200px)', null, null, 'repeat(2, 200px)'],
+    justifyContent: ['center', null, null, 'center', 'center'],
     listStyle: 'none',
     mt: [4, null, null, 5, 4, 5],
     p: 0,
     li: {
-      fontSize: [0, 1, null, 2, '15px', 2],
+      fontSize: [1, 1, null, 2, '15px', 2],
       fontWeight: 500,
       alignItems: 'center',
       color: 'textSecondary',

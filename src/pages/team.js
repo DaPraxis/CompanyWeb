@@ -20,7 +20,7 @@ const data = [
       icon: maxJ,
       path: '#!',
       name: 'Dr. Max',
-      title: 'Mentor, Researcher',
+      title: 'Founder, Mentor, Researcher',
       description: `Dr. Max is an experienced research scientist specializing in computer science, AI, machine learning, 
                     and data science. He holds an Honours Bachelor of Science from the University of Toronto, with a 
                     double major in Computer Science and Statistics, followed by a direct-entry Ph.D. in Industrial Engineering, 
@@ -38,7 +38,7 @@ const data = [
       icon: xinyiL,
       name: 'Xinyi',
       path: '#!',
-      title: 'Mentor, Technical Consultant',
+      title: 'Mentor, Head of STEM Mentor',
       description: `Xinyi is a skilled software developer with a strong foundation in computer science and engineering. She holds a 
                     Master of Engineering in Electrical and Computer Engineering, and a Bachelor of Science in Computer Science, both 
                     from the University of Toronto. With four years of experience as a 
@@ -54,8 +54,14 @@ const data = [
       icon: stevenL,
       path: '#!',
       name: 'Steven',
-      title: 'Career Coach, Marketing Guru',
-      description: "Overwhelmed by Major Choices? Curious About Academic Paths? We connect you to the best experts in the field!",
+      title: 'Career Counselor, Marketing Director',
+      description: `Steven is a seasoned brand management professional, graduated from Western University’s business program with a 
+                    specialization in Consumer Behaviour and Marketing. His 5+ years of experience spans across managing corporate 
+                    media programs, building talent brand strategies and managing high-profile global campaigns. Steven is also an 
+                    expert in building professional brand and have helped many industry leaders and C-suite executives to strength 
+                    their social impact on LinkedIn. Besides his passion toward marketing, Steven is always getting involved in 
+                    campus events, sharing his career journey & insights with students, and providing guidance to help build their 
+                    professional path.`,
       linkedin:'https://www.linkedin.com/in/stevenbinghuiliu/'
     },
     {
@@ -63,8 +69,15 @@ const data = [
       icon: clintJ,
       path: '#!',
       name: 'Clint',
-      title: 'Career Coach, Financial Specialist',
-      description: `Enhance your academic and professional profile with our comprehensive portfolio building services.`,
+      title: 'Career Counselor, Business Development',
+      description: `Clint is a dedicated investment banker with a Chartered Professional Accountant designation. He attended 
+                    Columbia International College in Hamilton and earned his bachelor’s degree in Business Management and 
+                    Organization Studies from Western University. Clint brings a wealth of experience from the education sector. 
+                    As the former Vice President of Events for a local educational company in London, Ontario, he successfully 
+                    organized multiple events that attracted thousands of students. His enthusiasm for education extends to engaging 
+                    students from all backgrounds, providing them with meaningful and impactful experiences. Clint leverages his 
+                    expertise to expand the organization’s impact and make meaningful collaborations happen with educational 
+                    institutions.`,
       linkedin: 'https://www.linkedin.com/in/clint-jin-53340711b/'
     },
   ];
