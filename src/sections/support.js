@@ -70,6 +70,7 @@ const styles = {
   section: {
     pt: [8, null, null, null, 10, 17],
     pb: [8, null, null, null, 10, 16],
+    backgroundColor: 'white',
   },
 
   grid: {

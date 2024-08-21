@@ -1,5 +1,10 @@
 const menuItems = [
   {
+    path: '/#home',
+    label: 'Home',
+    isInternal: true,
+  },
+  {
     path: '/#programs',
     label: 'Programs',
     isInternal: true,

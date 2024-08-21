@@ -50,11 +50,12 @@ export default function Header() {
           <Container sx={styles.container}>
             <Logo sx={styles.logo} />
             <nav as="nav" sx={styles.navbar} className={'navbar'}>
-              {menuItems.map(({ path, label, isInternal}, i) => (
+              {menuItems.map(({ path, label, isInternal }, i) => (
                 <div
                   key={i}
                   onClick={() => handleClick(path, isInternal)}
-                  style={styles.navItem}
+                  sx={label === 'Home' ? styles.homeNavItem : styles.navItem} // Apply homeNavItem style for Home
+                  // className={window.location.pathname === path.split('#')[0] ? 'active' : ''}
                 >
                   {label}
                 </div>
@@ -99,12 +100,23 @@ const styles = {
     cursor: 'pointer',
     display: 'flex',
     fontWeight: 400,
-    padding: '0 10px', // Add padding here to create space between items
-    transition: 'all 0.3s ease-in-out 0s',
+    padding: '0 10px',
+    transition: 'color 0.3s ease-in-out',
     textDecoration: 'none',
-    color: 'black',
-    '& + &': {
-      marginLeft: '20px', // Optional: Add margin if you need more spacing
+    color: 'black', // Default color
+    '&:hover': {
+      color: '#5271FF',  // Change color on hover
+    },
+    '&.active': {
+      color: '#5271FF',  // Change color when active
     },
   },
+  homeNavItem: {
+    cursor: 'pointer',
+    display: 'flex',
+    fontWeight: 400,
+    padding: '0 10px',
+    color: '#5271FF', // Constant color for the Home tab
+  },
 };
+

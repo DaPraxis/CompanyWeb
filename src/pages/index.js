@@ -7,7 +7,6 @@ import CustomerSupport from 'sections/customer-support';
 import Pricing from 'sections/pricing';
 import Support from 'sections/support';
 import Clients from 'sections/clients';
-import Team from 'sections/team';
 import Blog from 'sections/blog';
 import Faq from 'sections/faq';
 
@@ -20,11 +19,8 @@ export default function IndexPage() {
       />
       <Banner />
       <CustomerSupport />
-      {/* <Pricing /> */}
       <Support />
       <UltimateFeatures />
-      {/* <Clients /> */}
-      {/* <Team /> */}
       <Blog />
       <Faq />
     </Layout>

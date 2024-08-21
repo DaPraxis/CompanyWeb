@@ -107,7 +107,8 @@ export default TeamPage;
 
 const styles = {
     section: {
-      backgroundColor: '#F9FBFD',
+      // backgroundColor: '#F9FBFD',
+      backgroundColor: 'white',
       pt: [18, null, null, 17, null, null, 0],
       pb: [12, null, null, 12, 7, 11, 0],
     },

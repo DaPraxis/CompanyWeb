@@ -80,6 +80,7 @@ const styles = {
   section: {
     pt: [8, null, 12, 6, null, 15],
     pb: [null, null, null, 8, 0],
+    backgroundColor: 'white',
   },
   grid: {
     gap: [null, null, null, null, 2],

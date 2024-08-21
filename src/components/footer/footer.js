@@ -40,7 +40,8 @@ export default function Footer() {
 
 const styles = {
   footer: {
-    backgroundColor: '#F9FAFC',
+    // backgroundColor: '#F9FAFC',
+    backgroundColor: 'white',
     pt: 6,
   },
   footerTopInner: {

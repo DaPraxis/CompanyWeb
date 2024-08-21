@@ -97,7 +97,8 @@ export default UltimateFeatures;
 
 const styles = {
   section: {
-    backgroundColor: '#F9FBFD',
+    // backgroundColor: '#F9FBFD',
+    backgroundColor: 'white',
     pt: [8, null, null, 12, null, 10],
     pb: [9, null, null, 12, 16, 18],
   },

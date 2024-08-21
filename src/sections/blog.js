@@ -86,6 +86,7 @@ const styles = {
   section: {
     pt: [6, null, null, null, 2, 10, 14],
     pb: [2, null, null, null, 6, 10, 14],
+    backgroundColor: 'white',
   },
   masonry: {
     maxWidth: 1250,
