@@ -14,7 +14,7 @@ export default function IndexPage() {
   return (
     <Layout>
       <Seo
-        title="FastTrack Mentorship"
+        title="FastTrack"
         description="FastTrack; Mentorship; Consulting; Tutoring; Academic; High School; Private School; DIY; Project"
       />
       <Banner />

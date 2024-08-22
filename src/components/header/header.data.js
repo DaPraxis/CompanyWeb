@@ -2,27 +2,30 @@ const menuItems = [
   {
     path: '/#home',
     label: 'Home',
-    isInternal: true,
   },
   {
     path: '/#programs',
     label: 'Programs',
-    isInternal: true,
   },
   {
-    path: '/#features',
-    label: 'Features',
-    isInternal: true,
+    path: '/#services',
+    label: 'Services',
   },
   {
     path: '/#faq',
     label: 'FAQ',
-    isInternal: true,
   },
   {
-    path: '/team',
+    path: '/team#value',
+    label: 'Value',
+  },
+  {
+    path: '/team#team',
     label: 'Team',
-    isInternal: false,
+  },
+  {
+    path: '/team#contact',
+    label: 'Contact',
   },
 ];
 

@@ -76,7 +76,7 @@ const data = [
 
 const UltimateFeatures = () => {
   return (
-    <section id="features" sx={styles.section}>
+    <section id="services" sx={styles.section}>
       <Container>
         <SectionHeading
           sx={styles.heading}

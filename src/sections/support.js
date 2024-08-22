@@ -16,7 +16,7 @@ const data = [
   {
     id: 2,
     icon: icon2,
-    title: 'Distingished Seminars and Workshops',
+    title: 'Distinguished Seminars and Workshops',
     text: `Engage in seminars with guest lecturers and scholars from various universities and industrial fields. Workshops to enrich your skills.`,
   },
 ];
@@ -42,11 +42,6 @@ const Support = () => {
               Immerse yourself in academic and professional growth. Enhance your journey with university tours and curated portfolio development.
               </Text>
             </div>
-            {/* <SectionHeading
-              sx={styles.heading}
-              title="Do you need help? Our support team ready to help you"
-              description="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
-            /> */}
             {data.map((support) => (
               <SupportType key={support.id} data={support} />
             ))}
