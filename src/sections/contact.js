@@ -65,8 +65,9 @@ export default Contact;
 const styles = {
   section: {
     pt: [8, null, 12, 6, null, 15],
-    pb: [null, null, null, 8, 14],
+    pb: [null, null, null, 8, 2],
     backgroundColor: 'white',
+    minHeight: '100vh'
   },
   grid: {
     gap: [null, null, null, null, 2],

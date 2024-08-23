@@ -15,7 +15,7 @@ const list = [
 const Values = () => {
   const data = useStaticQuery(graphql`
     query {
-      support: file(relativePath: { eq: "values-s.gif" }) {
+      support: file(relativePath: { eq: "values 3.png" }) {
         publicURL
       }
     }
@@ -69,13 +69,14 @@ const styles = {
     pt: [8, null, 12, 6, null, 20],
     pb: [null, null, null, 8, 0],
     backgroundColor: 'white',
+    minHeight: '100vh',
   },
   grid: {
     gap: [null, null, null, null, 1],
     display: ['flex', null, null, 'grid'],
     flexDirection: ['column-reverse', null, null, 'unset'],
     alignItems: 'center',
-    gridTemplateColumns: ['1fr', null, null, null, '470px 1fr', '1fr 649px'],
+    gridTemplateColumns: ['1fr', null, null, null, '470px 1fr', '1fr 689px'],
   },
   illustration: {
     textAlign: 'center',
