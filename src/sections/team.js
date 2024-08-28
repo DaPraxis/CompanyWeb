@@ -30,8 +30,8 @@ const data = [
                     UofT, he has supported courses in statistics, mathematics, AI, and computer science. Additionally, he has mentored
                     high school students for 6+ years, leading them in data and mathematics competitions and helping them gain 
                     admission to top-tier STEM programs.`,
-      email: 'max.jiang@fasttrackacademy.net',
-      linkedin: 'https://www.linkedin.com/in/haoyan-jiang/'
+      // email: 'max.jiang@fasttrackacademy.net',
+      // linkedin: 'https://www.linkedin.com/in/haoyan-jiang/'
     },
     {
       id: 2,
@@ -47,7 +47,7 @@ const data = [
                     assistant experience at the University of Toronto, where she supported programming courses and mentored students 
                     in their coding journey. Xinyi is passionate about leveraging her knowledge to create innovative software 
                     solutions that address real-world challenges.`,
-      linkedin: 'https://www.linkedin.com/in/xinyi-l-505647b9/'
+      // linkedin: 'https://www.linkedin.com/in/xinyi-l-505647b9/'
     },
     {
       id: 3,
@@ -62,7 +62,7 @@ const data = [
                     their social impact on LinkedIn. Besides his passion toward marketing, Steven is always getting involved in 
                     campus events, sharing his career journey & insights with students, and providing guidance to help build their 
                     professional path.`,
-      linkedin:'https://www.linkedin.com/in/stevenbinghuiliu/'
+      // linkedin:'https://www.linkedin.com/in/stevenbinghuiliu/'
     },
     {
       id: 4,
@@ -78,7 +78,7 @@ const data = [
                     students from all backgrounds, providing them with meaningful and impactful experiences. Clint leverages his 
                     expertise to expand the organization’s impact and make meaningful collaborations happen with educational 
                     institutions.`,
-      linkedin: 'https://www.linkedin.com/in/clint-jin-53340711b/'
+      // linkedin: 'https://www.linkedin.com/in/clint-jin-53340711b/'
     },
   ];
 

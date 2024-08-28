@@ -27,13 +27,16 @@ const Values = () => {
         <Box sx={styles.grid}>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-            Our Values
+            Our Story
             </Heading>
             <Text as="p" sx={styles.summary}>
-            Proteus ut dis nec exsecrantia data: agrestes, truculenta Peleus. Et
-            diffidunt, talia intravit Thaumantias; figere et <em>et</em> qui socio
-            qui, tuo servet unda hoc <strong>classi</strong>? Causam <em>quemque</em>?
-            Subigebant cornibus fibras ut per nare nati, cunctis et
+            While teaching at UofT, Dr. Max identified key gaps between university and high school Computer Science curricula, as well as the need to improve students' mindsets and self-learning skills. With a strong desire to bridge this gap, <span style={{ color: '#5271FF' }}><strong>FastTrack</strong></span> was born.
+            </Text>
+            <Text as="p" sx={styles.summary}>
+            Here, we don't just teach you the fundamentals of computer science—we show you what you can build with the skills you've learned.
+            </Text>
+            <Text as="p" sx={styles.summary}>
+            <em> -- We help you fast-track your journey; this is just the start of what you can achieve.</em>
             </Text>
 
             {/* <Grid sx={styles.list} as="ul">
@@ -111,6 +114,8 @@ const styles = {
     lineHeight: [1.86, null, null, null, 1.86, 2.25],
     maxWidth: 550,
     m: [null, null, null, '20px auto 0', '15px 0 0', null, 'unset'],
+    textIndent: ['10px', null, null,  null, '30px'],
+    mb:['0px', null, null, null, '2px']
   },
   list: {
     gap: '0 18px',

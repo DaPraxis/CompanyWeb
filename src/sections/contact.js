@@ -4,12 +4,15 @@ import { useStaticQuery, graphql } from 'gatsby';
 import { IoIosCheckmarkCircle } from 'react-icons/io';
 import Image from 'components/image';
 import support from 'assets/images/support.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faClipboardList } from '@fortawesome/free-solid-svg-icons';
 
 const list = [
-  'Lectures + Project',
-  '20-Hour Program',
-  'Customized Topic',
-  'Ph.D. Guidance',
+  <span><FontAwesomeIcon icon={faEnvelope} style={{ color: 'darkgrey', marginRight: '8px' }}/> Email: <strong>info@fasttrackacademy.net</strong></span>,
+  <span><FontAwesomeIcon icon={faClipboardList} style={{ color: 'darkgrey', marginRight: '8px' }}/> Inquiry Form: <strong>
+  <a href="https://form.jotform.com/221316375057251" style={{ color: 'primary', textDecoration: 'none' }}>Contact us here</a>
+</strong></span>,
 ];
 
 const Contact = () => {
@@ -38,21 +41,23 @@ const Contact = () => {
             Get in Touch
             </Heading>
             <Text as="p" sx={styles.summary}>
-            Experience our Project-Based Learning (PBL) program, where lectures and personal projects converge. Gain in-depth knowledge and apply it to create impressive deliverables. 
-            By the end of the program, you'll have a completed project with academic rigor and aesthetic visualizations, such as a website or a report.
+              Have questions or want to learn more?
             </Text>
 
             <Grid sx={styles.list} as="ul">
               {list.map((item, i) => (
                 <Text as="li" key={i}>
-                  <IoIosCheckmarkCircle
+                  {/* <IoIosCheckmarkCircle
                     sx={{ color: 'primary', mr: 2 }}
                     size="20px"
-                  />
+                  /> */}
                   {item}
                 </Text>
               ))}
             </Grid>
+            <Text as="p" sx={styles.summary}>
+              We look forward to hearing from you!
+            </Text>
           </Box>
         </Box>
       </Container>
@@ -112,7 +117,7 @@ const styles = {
   },
   list: {
     gap: '0 18px',
-    gridTemplateColumns: ['repeat(2, 142px)', null, null, 'repeat(2, 200px)'],
+    gridTemplateColumns: ['repeat(1, 142px)', null, null, 'repeat(1, 300px)'],
     justifyContent: [null, null, null, 'center', 'unset'],
     listStyle: 'none',
     mt: [4, null, null, 5, 4, 5],

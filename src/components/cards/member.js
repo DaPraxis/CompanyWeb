@@ -27,14 +27,14 @@ const TeamMember = ({ data, ...props }) => {
         <Box sx={styles.info}>
           <Heading as="h4" sx={styles.name}>{data?.name}</Heading>
           <Text as="p" sx={styles.title}>{data?.title}</Text>
-          <div style={{ display: 'flex', alignItems: 'center' }}>
+          {/* <div style={{ display: 'flex', alignItems: 'center' }}>
             <a href={"mailto:" + data?.email} style={{ marginRight: '10px' }}>
               <FontAwesomeIcon icon={faEnvelope} style={{ color: 'darkgrey' }} />
             </a>
             <a href={data?.linkedin} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} style={{ color: 'darkgrey' }} />
             </a>
-          </div>
+          </div> */}
         </Box>
       </Box>
       <Text
