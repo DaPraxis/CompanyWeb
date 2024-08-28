@@ -91,6 +91,7 @@ const styles = {
   section: {
     pt: [6, null, null, null, 6, 10, 14],
     pb: [12, null, null, null, 10, 22],
+    backgroundColor: 'white',
   },
   loadMore: {
     paddingTop: [3, null, null, 0],
