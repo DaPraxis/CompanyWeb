@@ -83,7 +83,7 @@ const data = [
   ];
 
 const Team = () => (
-    <section id='team' sx={styles.section}>
+    <Box as="section" id='team' sx={styles.section}>
       <Container>
         <Box sx={styles.contentWrapper}>
             <SectionHeading
@@ -97,7 +97,7 @@ const Team = () => (
             </Box>
         </Box>
       </Container>
-    </section>
+    </Box>
 );
 
 export default Team;
