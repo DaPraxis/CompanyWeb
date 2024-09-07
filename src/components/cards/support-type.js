@@ -29,35 +29,37 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     mt: 7,
-    // Ensure proper flex behavior across all devices, keeping the icon on the left
-    flexDirection: 'row', // Keep the icon on the left and text on the right
+    backgroundColor: 'white', // Ensure the background is light
+    color: '#0F2137', // Set text color to dark for visibility
     '@media screen and (max-width: 768px)': {
-      flexDirection: 'row', // Maintain the horizontal layout even on smaller screens
-      textAlign: 'left', // Ensure text stays aligned left on mobile
+      flexDirection: 'row', // Keep the icon on the left and text on the right for mobile
+      textAlign: 'left', // Ensure text stays aligned left
     },
   },
   icon: {
     alignItems: 'center',
     justifyContent: 'center',
     mr: 4,
-    minWidth: [42, null, null, 60], // Icon size adjusts for smaller screens
+    minWidth: [42, null, null, 60],
   },
   content: {
-    flex: 1, // Ensure content takes up available space
+    flex: 1,
   },
   heading: {
     fontSize: [2, null, null, 3],
     fontWeight: 700,
     mb: 2,
     display: 'flex',
+    color: '#0F2137', // Ensure heading text color is dark for contrast
     alignItems: 'center',
     svg: {
-      ml: 2, // Ensure consistent spacing between text and icon
+      ml: 2,
     },
   },
   text: {
-    fontSize: [1, null, null, 2], // Font size adapts to screen size
+    fontSize: [1, null, null, 2],
     lineHeight: '1.6',
-    color: 'text',
+    color: '#0F2137', // Ensure body text color is dark for readability
   },
 };
+

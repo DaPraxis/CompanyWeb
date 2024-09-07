@@ -62,6 +62,7 @@ const styles = {
     marginBottom: [3, null, null, 6, 8],
     paddingBottom: [3, null, null, 6, 8],
     paddingRight: [0, null, null, 7, 8, 11],
+    backgroundColor: 'white',
     '&.is-open': {
       borderWidth: 2,
       borderColor: 'heading',
@@ -72,6 +73,7 @@ const styles = {
   },
   title: {
     color: 'heading',
+    color: '#0F2137', // Dark text color for visibility
     fontWeight: 500,
     fontSize: [2, null, null, 4],
     lineHeight: 1.5,
@@ -79,6 +81,7 @@ const styles = {
     paddingRight: [8, null, null, 0],
   },
   content: {
+    color: '#0F2137', // Set content text to dark color for readability
     fontSize: [1, null, null, 2],
     '> div': {
       paddingTop: [1, null, null, 0],
@@ -86,6 +89,7 @@ const styles = {
     display: 'block',
     '-webkit-display': 'block',
     visibility: 'visible',
+    backgroundColor: 'white', // Ensure background contrast for text
     wordWrap: 'break-word', // Prevent text overflow
     // Ensure content overflow is handled correctly for smaller screens
     '@media screen and (max-width: 768px)': {
