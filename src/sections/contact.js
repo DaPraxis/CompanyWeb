@@ -72,7 +72,10 @@ const styles = {
     pt: [8, null, 12, 6, null, 15],
     pb: [null, null, null, 8, 2],
     backgroundColor: 'white',
-    minHeight: '100vh'
+    // minHeight: [null, null, null, null, '100vh'], // Apply 100vh only on larger screens beyond iPad Pro size
+    '@media screen and (min-width: 1025px)': { // Only apply 100vh for screens larger than 1024px
+      minHeight: '100vh',
+    },
   },
   grid: {
     gap: [null, null, null, null, 2],

@@ -69,10 +69,13 @@ export default Values;
 
 const styles = {
   section: {
-    pt: [8, null, 12, 6, null, 20],
+    pt: [8, 8, 18, 16, null, 20],
     pb: [null, null, null, 8, 0],
     backgroundColor: 'white',
-    minHeight: '100vh',
+    // minHeight: [null, null, null, '100vh'], // Use 100vh on mobile, auto on larger screens
+    '@media screen and (min-width: 1025px)': { // Only apply 100vh for screens larger than 1024px
+      minHeight: '100vh',
+    },
   },
   grid: {
     gap: [null, null, null, null, 1],

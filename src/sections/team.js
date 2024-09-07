@@ -110,6 +110,7 @@ const styles = {
     pb: [12, null, null, 12, 7, 11, 0],
   },
   contentWrapper: {
+    backgroundColor: 'white', // Ensure the background is white on all devices
     pt: 10
   },
   heading: {
