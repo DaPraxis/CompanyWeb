@@ -60,6 +60,7 @@ export default TeamMember;
 
 const styles = {
   card: {
+    backgroundColor: 'white',
     padding: [
       null,
       null,
@@ -74,7 +75,15 @@ const styles = {
       ':hover': {
         backgroundColor: 'white',
         borderColor: 'white',
-        boxShadow: '0px 20px 50px rgba(59, 90, 136, 0.05)',
+        boxShadow: '0px 5px 15px rgba(0, 0, 0, 0.05)', // Optional: add a subtle shadow for better visual separation
+        '@media only screen and (min-width:768px)': {
+          ':hover': {
+            backgroundColor: 'white',  // Maintain white background on hover
+            borderColor: 'white',
+            boxShadow: '0px 20px 50px rgba(59, 90, 136, 0.05)',
+            transform: 'translate(-1px, -1px)',
+          },
+        },
         transform: 'translate(-1px, -1px)',
       },
     },
@@ -91,12 +100,15 @@ const styles = {
     height: '100px',          // Force the height to 100px
     objectFit: 'cover',       // Ensures the image fills the circle without distortion
     objectPosition: 'center', // Centers the image within the circle
+    flexShrink: 0,            // Prevents the image from shrinking
+    // Avoid margins that would push the image
     // mr: 10,
   },
   info: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'flex-start',
+    // marginLeft: '20px',
   },
   name: {
     fontSize: 3,

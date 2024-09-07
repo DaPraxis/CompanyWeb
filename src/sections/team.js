@@ -123,6 +123,7 @@ const styles = {
   },
   grid: {
     gap: [6, null, 0],
+    backgroundColor: 'white', // Ensure the background is white on all devices
     display: 'grid',
     maxWidth: 1080,
     margin: '0 auto',
