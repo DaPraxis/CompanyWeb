@@ -83,13 +83,15 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     mb: 6,
+    gap: '20px',  // Add gap between the image and the description
   },
   image: {
-    borderRadius: '50%',
-    width: 100,
-    height: 100,
-    objectFit: 'cover',
-    mr: 10,
+    borderRadius: '50%',      // Ensures a perfect circle
+    width: '100px',           // Force the width to 100px
+    height: '100px',          // Force the height to 100px
+    objectFit: 'cover',       // Ensures the image fills the circle without distortion
+    objectPosition: 'center', // Centers the image within the circle
+    // mr: 10,
   },
   info: {
     display: 'flex',
@@ -138,3 +140,4 @@ const styles = {
     fontSize: [1, null, null, null, 2],
   },
 };
+

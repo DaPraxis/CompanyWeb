@@ -104,37 +104,34 @@ export default Team;
 
 
 const styles = {
-    section: {
-      // backgroundColor: '#F9FBFD',
-      backgroundColor: 'white',
-      pt: [18, null, null, 17, null, null, 0],
-      pb: [12, null, null, 12, 7, 11, 0],
+  section: {
+    backgroundColor: 'white', // Ensure the background is white on all devices
+    pt: [18, null, null, 17, null, null, 0],
+    pb: [12, null, null, 12, 7, 11, 0],
+  },
+  contentWrapper: {
+    pt: 10
+  },
+  heading: {
+    marginBottom: [7, null, null, 8, 7],
+    alignContents: 'center',
+    textAlign: 'center',
+    p: {
+      maxWidth: 490,
+      margin: ['10px auto 0'],
     },
-    contentWrapper: {
-        pt: 10
-      },
-    heading: {
-        marginBottom: [7, null, null, 8, 7],
-        alignContents:'center',
-        textAlign:'center',
-        p: {
-          maxWidth: 490,
-          margin: ['10px auto 0'],
-        },
-      },
-    grid: {
-      gap: [6, null, 0],
-      display: 'grid',
-      maxWidth: 1080,
-      margin: '0 auto',
-      gridTemplateColumns: [
-        'repeat(1, 1fr)',
-        null,
-        null,
-        'repeat(2, 1fr)',
-        'repeat(2, 1fr)',
-      ],
-      // borderTop: (t) => [null, null, `1px solid ${t.colors.borderColor}`],
-      // borderLeft: (t) => [null, null, `1px solid ${t.colors.borderColor}`],
-    },
-  };
+  },
+  grid: {
+    gap: [6, null, 0],
+    display: 'grid',
+    maxWidth: 1080,
+    margin: '0 auto',
+    gridTemplateColumns: [
+      'repeat(1, 1fr)',
+      null,
+      null,
+      'repeat(2, 1fr)',
+      'repeat(2, 1fr)',
+    ],
+  },
+};
