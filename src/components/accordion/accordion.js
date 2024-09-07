@@ -84,10 +84,14 @@ const styles = {
       paddingTop: [1, null, null, 0],
     },
     display: 'block',
+    '-webkit-display': 'block',
     visibility: 'visible',
+    wordWrap: 'break-word', // Prevent text overflow
+    // Ensure content overflow is handled correctly for smaller screens
     '@media screen and (max-width: 768px)': {
       overflow: 'visible',
       paddingRight: 0,
+      maxHeight: 'none',  // Ensure content is fully visible
     },
   },
 };

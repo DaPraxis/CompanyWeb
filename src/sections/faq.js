@@ -75,7 +75,6 @@ const Faq = () => {
           // slogan="Get your question answer"
           title="FAQ"
         />
-
         <Accordion items={data} />
         <Box sx={styles.loadMore}>
           <Button as="a" href = "https://form.jotform.com/221316375057251">More Questions? Contact us</Button>
@@ -92,7 +91,8 @@ const styles = {
     pt: [6, null, null, null, 6, 10, 14],
     pb: [12, null, null, null, 10, 22],
     backgroundColor: 'white',
-    overflow: 'visible',
+    overflow: 'visible', // Ensures the FAQ content is visible
+    '-webkit-overflow-scrolling': 'touch', // Smooth scrolling for WebKit browsers
   },
   loadMore: {
     paddingTop: [3, null, null, 0],
@@ -107,5 +107,5 @@ const styles = {
         color: 'white',
       },
     },
-  },
+  }
 };
