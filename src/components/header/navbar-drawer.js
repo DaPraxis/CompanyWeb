@@ -37,11 +37,11 @@ const NavbarDrawer = () => {
 
   return (
     <Drawer
-      width="340px"
+      width="250px"
       placement="right"
       drawerHandler={
         <Box sx={styles.handler}>
-          <MenuButton />
+          <MenuButton sx={{color:'black'}}/>
         </Box>
       }
       open={state?.isOpen}
