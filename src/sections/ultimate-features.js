@@ -118,6 +118,7 @@ const styles = {
       'repeat(1, 1fr)',
       null,
       null,
+      'repeat(2, 1fr)', 
       'repeat(2, 1fr)',
       'repeat(2, 1fr)',
     ],
