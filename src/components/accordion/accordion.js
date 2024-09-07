@@ -56,15 +56,18 @@ const styles = {
     borderBottom: `1px solid ${rgba('#0F2137', 0.3)}`,
     gap: [2, null, null, 4, 3, 13],
     display: 'grid',
-    gridTemplateColumns: ['1fr ', null, null, null, '1fr 1fr'],
+    gridTemplateColumns: '1fr',
     alignItems: 'flex-start',
     position: 'relative',
-    paddingRight: [null, null, null, 7, 8, 11],
     marginBottom: [3, null, null, 6, 8],
     paddingBottom: [3, null, null, 6, 8],
+    paddingRight: [0, null, null, 7, 8, 11],
     '&.is-open': {
       borderWidth: 2,
       borderColor: 'heading',
+    },
+    '@media screen and (min-width: 1024px)': {
+      gridTemplateColumns: '1fr 1fr',
     },
   },
   title: {
@@ -79,6 +82,12 @@ const styles = {
     fontSize: [1, null, null, 2],
     '> div': {
       paddingTop: [1, null, null, 0],
+    },
+    display: 'block',
+    visibility: 'visible',
+    '@media screen and (max-width: 768px)': {
+      overflow: 'visible',
+      paddingRight: 0,
     },
   },
 };
