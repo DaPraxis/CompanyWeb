@@ -117,7 +117,7 @@ const styles = {
   },
   list: {
     gap: '0 18px',
-    gridTemplateColumns: ['repeat(1, 142px)', null, null, 'repeat(1, 300px)'],
+    gridTemplateColumns: [null, null, null, 'repeat(1, 300px)'],
     justifyContent: [null, null, null, 'center', 'unset'],
     listStyle: 'none',
     mt: [4, null, null, 5, 4, 5],
